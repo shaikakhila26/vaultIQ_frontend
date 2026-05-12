@@ -4,7 +4,7 @@ import os
 import json
 
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://vaultiq-backend-mluv.onrender.com/")
 
 st.set_page_config(
     page_title="VaultIQ",
